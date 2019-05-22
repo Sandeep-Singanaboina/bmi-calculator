@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_what_is_bmi"
+            android:icon="@drawable/ic_about"
+            android:title="About BMI" />
+        <item
+            android:id="@+id/nav_Ranges"
+            android:icon="@drawable/ic_right"
+            android:title="BMI Ranges" />
+        <item
+            android:id="@+id/nav_Accuracy_of_BMI"
+            android:icon="@drawable/ic_right"
+            android:title="Accuracy of BMI" />
+        <item
+            android:id="@+id/nav_health_benefits"
+            android:icon="@drawable/ic_right"
+            android:title="health benefits of losing weight?" />
+        <item
+            android:id="@+id/nav_dite_plan"
+            android:icon="@drawable/ic_right"
+            android:title="Diet paln " />
+
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

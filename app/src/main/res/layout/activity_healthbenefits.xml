@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HealthbenefitsActivity">
+
+
+        <TextView
+            android:id="@+id/Texthealth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Benefits"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/Textproblems"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Texthealth"
+            android:text="@string/Benefits_info"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/overweight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Textproblems"
+            android:text="@string/Health_problems_linked_to_being_overweight"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            />
+
+         <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/overweight"
+            android:text="If you're overweight or obese, you have a higher risk of:
+        high blood pressure
+        heart disease
+        stroke
+        type 2 diabetes
+        some types of cancer
+        osteoarthritis
+        back pain"
+            android:textSize="15sp"
+            android:textStyle="bold"
+             tools:ignore="HardcodedText" />
+
+
+</LinearLayout>

@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">BMI Calculator</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">BMI Calculator</string>
+    <string name="nav_header_subtitle">sandeep_strak\'s</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="BodyMassIndex">Body Mass Index</string>
+    <string name="weight">weight</string>
+    <string name="height">height in cms </string>
+    <string name="calculateBMI">calculate BMI</string>
+    <string name="very_severely_underweight">very severely underweight</string>
+    <string name="severely_underweight">severely underweight</string>
+    <string name="underweight">Underweight</string>
+    <string name="normal">Normal</string>
+    <string name="overweight">overweight</string>
+    <string name="obese_class_i">obese Class I(Moderately Obese)</string>
+    <string name="obese_class_ii">obese Class II(Severely Obese)</string>
+    <string name="obese_class_iii">obese Class III(Very Severely Obese)</string>
+    <string name="what_is_bmi">Body mass index: A key index for relating weight to height.
+        Abbreviated BMI. BMI is a person\'s weight in kilograms (kg) divided by his or her height in meters squared.
+        The National Institutes of Health (NIH) now defines normal weight,
+        overweight, and obesity according to BMI rather than the traditional height/weight charts.
+        Overweight is a BMI of 27.3 or more for women and 27.8 or more for men.
+        Obesity is a BMI of 30 or more for either sex
+        (about 30 pounds overweight). A very muscular person might have a high BMI
+        without health risks. </string>
+    <string name="range">BMI ranges:</string>
+    <string name="BMI_range">"For most adults, an ideal BMI is in the 18.5 to 24.9 range.For children and young people aged 2 to 18,the BMI calculation takes into account age and gender as well as height and weight. If your BMI is:
+        below 18.5 – you are in the underweight range
+        between 18.5 and 24.9 – you're in the healthy weight range
+        between 25 and 29.9 – you're in the overweight range
+        between 30 and 39.9 – you're in the obese range" </string>
+    <string name="Accuracy_of_BMI">Accuracy of BMI:</string>
+    <string name="Accuracy_info">"BMI takes into account natural variations in body shape giving a healthy weight range for a particular height. As well as measuring your BMI, health care professionals may take other factors into account when assessing if you are a healthy weight.
+        Muscle is much denser than fat, so very muscular people,such as heavyweight boxers,weight trainers and athletes, may be a healthy weight even though their BMI is classed as obese. Your ethnic group can also affect your risk of some health conditions. For example, adults of Asian origin may have a higher risk of health problems at BMI levels below 25.
+        You should not use BMI as a measure if you're pregnant.
+        Get advice from your midwife or GP if you're concerned about your weight."</string>
+    <string name="Benefits">What are the health benefits of losing weight?</string>
+    <string name="Benefits_info">If you\'re overweight or obese,
+        losing weight can reduce your risk of some potentially serious health problems.
+        Most people who need to lose weight can get health benefits from losing even a small amount
+        (about 5 percent) of their weight if they keep it off.</string>
+    <string name="Health_problems_linked_to_being_overweight">Health problems linked to being overweight</string>
+
+    <string name="lose_weight_info">"You can find out if you\'re overweight by calculating your body mass index (BMI).
+        This shows whether you\'re a healthy weight for your height.
+    The size of your waist is also important. If it's too large, your risk of health problems is higher."</string>
+
+    <string name="waist_size_important">Why is my waist size important?</string>
+
+    <string name="waist_info">Your risk of some health problems is affected by where your body fat is stored, as well as by your weight. Carrying too much fat around your middle (waist) can increase your risk of developing conditions such as:
+
+heart disease
+type 2 diabetes
+cancer</string>
+
+</resources>
+

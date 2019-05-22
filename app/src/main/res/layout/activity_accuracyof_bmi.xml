@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AccuracyofBMIActivity">
+    <TextView
+        android:id="@+id/accuracy_of_bmi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Accuracy_of_BMI"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:textColor="@android:color/holo_blue_dark"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/accuracy_of_id"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/accuracy_of_bmi"
+        android:text="@string/Accuracy_info"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>
